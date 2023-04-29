@@ -1,0 +1,70 @@
+Laborator 2: Netbeans usage, Glassfish
+
+1. Netbeans 8.2 documentation
+   https://docs.oracle.com/netbeans/nb82/netbeans/NBDAG/toc.htm
+
+   
+   Creating java projects
+   https://docs.oracle.com/netbeans/nb82/netbeans/NBDAG/create_japps.htm#NBDAG366
+
+
+   Working with java code; Code editor keyboard shortcuts
+   https://docs.oracle.com/netbeans/nb82/netbeans/NBDAG/work_java_code.htm#NBDAG478
+
+
+   Running and debugging
+   https://docs.oracle.com/netbeans/nb82/netbeans/NBDAG/run_debug_japps.htm#NBDAG796
+
+
+2. Glassfish config to Netbeans
+   Netbeans -> TAB: Services (stanga sus, langa Projects) -> Servers -> right click -> add server -> Glassfish server:
+   sau
+   Netbeans -> Tools -> Servers -> Add server -> Glassfish server:
+
+
+      select dest folder
+      check 'I have read and accept license agreement'
+      click 'Download Now'
+   -> Glassfish 4.1.1, 4.1.2 sau 5
+  
+
+   Daca nu functioneaza, atunci 
+     - download glassfish http://download.java.net/glassfish/4.1.2/release/glassfish-4.1.2.zip
+	                      http://download.oracle.com/glassfish/5.0.1/release/glassfish-5.0.1.zip
+     - dezarhivare 
+     - Netbeans -> TAB: Services (stanga sus, langa Projects) -> Servers -> right click -> Add server -> Glassfish server 
+        selectare subdirector glassfish4 din directorul unde ati dezarhivat.
+
+     -> Next -> Finish
+
+3. Glassfish start/stop
+   Netbeans -> TAB: Services (stanga sus, langa Projects) -> Servers -> Glassfish Server 4.1.2 (sau numele pe care l-ati ales) -> 
+   -> right click: start
+   -> right click: stop
+   Nota: Procesul de pornire este greoi. Dureaza.
+
+4. Glassfish admin console 
+   Netbeans -> TAB: Services (stanga sus, langa Projects) -> Servers -> Glassfish Server 4.1.2 (sau numele pe care l-ati ales) -> 
+   -> right click: View domain admin console
+
+   sau introduceti in browser url-ul:  http://localhost:4848/
+
+   Nota: a) glassfish trebuie sa fie pornit pt ca interfata de administrare sa fie disponibila
+         b) daca cere user/pass atunci folositi admin/admin
+         c) documentatie: 
+                   https://www.techopedia.com/definition/27238/glassfish
+                   https://javaee.github.io/glassfish/doc/5.0/quick-start-guide.pdf 
+                   https://javaee.github.io/glassfish/documentation4
+                        
+5. Overview of Enterprise Applications
+   https://www.theserverside.com/definition/J2EE-Java-2-Platform-Enterprise-Edition
+   https://docs.oracle.com/javaee/7/firstcup/java-ee001.htm
+
+
+6. Tema: 
+   Creati proiecte pt tipurile de proiecte pe care le poate crea Netbeans:
+   File > New Project > Java with Ant > Java Web > Web Application
+   File > New Project > Java with Ant > Java Enterprise > Enterprise Application
+   File > New Project > Java with Ant > Java Enterprise > EJB Module
+   File > New Project > Java with Ant > Java Enterprise > Enterprise Application Client
+

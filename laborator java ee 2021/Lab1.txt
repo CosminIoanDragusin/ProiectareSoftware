@@ -1,0 +1,20 @@
+1. Install JDK 1.8
+    command line: java -version
+    if not found: https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+
+3. Install Netbeans   
+          https://netbeans.org/downloads/
+          
+   
+2. JUNIT - Introducere (Junit 4)
+         https://netbeans.org/kb/docs/java/junit-intro.html
+         http://tutorials.jenkov.com/java-unit-testing/simple-test.html
+
+3. Maven - https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
+          Netbeans: Tools > Options > Java > Maven
+          Alternativa: Netbeans: File -> New Project -> Java With Maven -> Project from Archetype -> 8R-basic-archetype
+		  
+
+4. GIT
+        partea 1:http://tutorials.jenkov.com/git/index.html
+        partea 2 (tema de casa):http://tutorials.jenkov.com/git/bitbucket.html
